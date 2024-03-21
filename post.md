@@ -66,7 +66,10 @@ Using the Boolean Truth Table, create K-Maps and minimized the logical expressio
 
 Built the circuit in Logisim and test it is working as expacted.
 
-https://github.com/AdvancedUno/lab-5-blog-post-group2_cs281-1/assets/108073642/25083ae7-0a83-4122-8dc2-e3a05703fd09
+
+
+https://github.com/mlcourses/lab-5-blog-post-group2_cs281-1/assets/108073642/11f32647-5268-4655-bce8-5e6d22fedcdf
+
 
 
 
@@ -96,7 +99,10 @@ asynchronously.
 
 ### Testing:
 
-https://github.com/AdvancedUno/lab-5-blog-post-group2_cs281-1/assets/108073642/590413de-dfee-4612-b595-be562c99fcab
+
+
+https://github.com/mlcourses/lab-5-blog-post-group2_cs281-1/assets/108073642/204d8f5e-cbd5-46f5-a917-4371fc74e9cf
+
 
 
 
