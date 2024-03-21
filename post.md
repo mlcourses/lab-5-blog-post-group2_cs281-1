@@ -69,7 +69,17 @@ should hear an audible “click” each time you touch or release the +5V.
 1. Plug the + end of the buzzer wire into the breadboard function generator (start with the TTL input).
 2. Play with the frequency knobs or buttons. What do you observe about the buzzer as the frequency changes? <br>
 
-https://github.com/mlcourses/lab-4-blog-post-AdvancedUno/assets/108073642/56b10f36-0d01-4c50-a025-fa821a7e2ca8
+
+
+https://github.com/AdvancedUno/lab-5-blog-post-group2_cs281-1/assets/108073642/25083ae7-0a83-4122-8dc2-e3a05703fd09
+
+
+
+
+https://github.com/AdvancedUno/lab-5-blog-post-group2_cs281-1/assets/108073642/590413de-dfee-4612-b595-be562c99fcab
+
+
+
 
 
 #### Test 3
