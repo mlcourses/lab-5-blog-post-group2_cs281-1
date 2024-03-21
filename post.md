@@ -63,7 +63,7 @@ Using the Boolean Truth Table, create K-Maps and minimized the logical expressio
 
 
 ## 4. Build the circuit in logisim
-
+### Testing:
 Built the circuit in Logisim and test it is working as expacted.
 
 
