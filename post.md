@@ -81,17 +81,17 @@ state.
 
 
 <div style="display: flex; justify-content: center;">
-    <img width="650" height="500" src="IMG_0463.JPG" alt="">
+    <img width="650" height="600" src="IMG_0463.JPG" alt="">
 </div>
 <br>
 
 5. Wire output to the last logic probe.
 6. Make use of the CLEAR feature for the FFs so that you can reset the circuit back to the start state
 asynchronously.
-7. Be sure to read the spec sheet for the JK flip flop very carefully. You will find some additional inputs on
-the real JK IC that do not appear on the simplified logisim model
 
 <br><img width="750" height="500" src="IMG_04641.JPG">
+<br>
+#### NOTE: Be sure to read the spec sheet for the JK flip flop very carefully. You will find some additional inputs on the real JK IC that do not appear on the simplified logisim model
 <br>
 
 ### Testing:
