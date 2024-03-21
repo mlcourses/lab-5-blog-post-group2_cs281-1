@@ -58,13 +58,13 @@ circuit. You will also have an output for out, the overall circuit output.
 
 ## 3. Build K-Maps
 
-Using the Boolean Truth Table, create K-Maps and minimized the logical expressions to simplified equations.
+Using the Boolean Truth Table, create K-Maps and minimized the logical expressions to simplified equations. We will use these simplified circuits to handle input into the Jk flop-flop. It is important to make sure that your simplifications are correct before starting to construct the circuit, as it can lead to mistakes and frustration if they are not.
 <br><img width="700" height="500" src="lab52.jpeg">
 
 
 ## 4. Build the circuit in logisim
 ### Testing:
-Built the circuit in Logisim and test it is working as expacted.
+Before constructing the circuit, it is crucial to build it in Logisim to test that the circuit actualy works. We have provided a video demonstrating the correct circuit, but you should build it yourself first and then check with ours if you find yours is not working. You should only need two JK flip-flops for the circuit.
 
 
 
