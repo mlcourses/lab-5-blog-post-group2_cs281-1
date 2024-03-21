@@ -7,7 +7,7 @@ We'll explore how to connect these components with an idea of DFA and JK flip fl
 
 # Objectives of the Lab
 1.  This lab is to design a circuit that reads a binary number input one bit at a time and determines whether the binary number represented by the input is divisible by 3.
-   
+   <br><img width="600" height="500" src="lab_f1.png">
 # Materials
 - PB-503 Breadboard prototyping station (an integrated device with a number of electrical components like switches)
 - Wires
@@ -18,7 +18,6 @@ We'll explore how to connect these components with an idea of DFA and JK flip fl
 - Computer with Arduino IDE installed
 
 # Overview: 
-
 1. Circuit Design: The binary number will be fed to the circuit, one bit at a time, starting with the highest order bit and ending with
 the lowest order bit. Each bit will be clocked into the circuit using a separate clock input.
 <br><img width="770" height="500" src="lab_f2.png">
@@ -26,9 +25,6 @@ the lowest order bit. Each bit will be clocked into the circuit using a separate
 
 
 
-
-
-<br><img width="600" height="500" src="lab_f1.png">
 
 
 
@@ -39,16 +35,17 @@ the lowest order bit. Each bit will be clocked into the circuit using a separate
 
 
 # Circuit Design: 
+
 ## 1. Build a Finite State Machine (DFA)
 
 
 We began by constructing a Finite State Machine (FSM) using a state transition diagram. 
 The FSM depicts the various states the circuit can be in and the transitions between them based on the input bits. <br>
 
-<br><img width="600" height="500" src="lab53.jpeg">
+<br><img width="700" height="500" src="lab53.jpeg">
 
 
-## 2. Boolean Truth Table
+## 2. Build Boolean Truth Table
 
 Build truth table for the J and K inputs of each flip-flop and the output of the circuit.
 The outputs of your truth table are the J and K values for each flip flop in your memory portion of the
@@ -59,10 +56,10 @@ circuit. You will also have an output for out, the overall circuit output.
 
 #### Note: Remember to include don’t cares whenever possible because they greatly ease the circuit design in the next
 
-## 3. Create K-Maps
+## 3. Build K-Maps
 
 Using the Boolean Truth Table, create K-Maps and minimized the logical expressions to simplified equations.
-<br><img width="600" height="500" src="lab52.jpeg">
+<br><img width="700" height="500" src="lab52.jpeg">
 
 
 ## 4. Build the circuit in logisim
@@ -86,7 +83,7 @@ state.
 <div style="display: flex; justify-content: center;">
     <img width="650" height="500" src="IMG_0463.JPG" alt="">
 </div>
-
+<br>
 
 5. Wire output to the last logic probe.
 6. Make use of the CLEAR feature for the FFs so that you can reset the circuit back to the start state
@@ -110,12 +107,7 @@ https://github.com/AdvancedUno/lab-5-blog-post-group2_cs281-1/assets/108073642/5
 
 
 
-
-
 # Conclusion
-
-This lab allowed us to get a deeper understanding of sensors and actuators such as buzzers and ultrasonic sensors.
-By using an Arduino device and circuit, we created tools that may have practical use in our daily lives instead of just wiring circuits and testing. For the last component of the lab, we practiced how to combine two or more devices and tools to create more complex and useful devices that can be good practice for future labs and even for future careers. 
 
 
 
