@@ -6,7 +6,7 @@ In this lab we will build a circuit that reads a binary number and determines if
 We'll explore how to connect these components with an idea of DFA and JK flip flop.
 
 # Objectives of the Lab
-1.  This lab is to design a circuit that reads a binary number input one bit at a time and determines whether the binary number represented by the input is divisible by 3.
+1.  This lab is to design a circuit that reads a binary number input one bit at a time and determines whether the binary number represented by the input is divisible by 3. In this lab we are introduced to the finite state machine/deterministic finite automata (FSA/DFA). This are an essecial component in all of computer science. We will be constructing a sequential circuit that will read in binary digits and determine if the binary number is divisible by 3. We will store these binary digits into something called a JK Flip-flop. A digram for one can be seen below.
    <br><img width="600" height="500" src="lab_f1.png">
 # Materials
 - PB-503 Breadboard prototyping station (an integrated device with a number of electrical components like switches)
