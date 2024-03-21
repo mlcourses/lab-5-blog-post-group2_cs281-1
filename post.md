@@ -40,7 +40,7 @@ the lowest order bit. Each bit will be clocked into the circuit using a separate
 
 
 We began by constructing a Finite State Machine (FSM) using a state transition diagram. 
-The FSM depicts the various states the circuit can be in and the transitions between them based on the input bits. <br>
+The FSM depicts the various states the circuit can be in and the transitions between them based on the input bits. The machine starts in the S0 state. It is then fed either a 1 or a 0. If it recieves a 1, it moves onto the next state, if its a zero, then it stays in the initial state. The goal of the machine is to create a binary number divisible by 3. <br>
 
 <br><img width="700" height="500" src="lab53.jpeg">
 
