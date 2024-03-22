@@ -6,7 +6,7 @@ In this lab we will build a circuit that reads a binary number and determines if
 We'll explore how to connect these components with an idea of DFA and JK flip flop.
 
 # Objectives of the Lab
-1.  This lab is to design a circuit that reads a binary number input one bit at a time and determines whether the binary number represented by the input is divisible by 3. In this lab we are introduced to the finite state machine/deterministic finite automata (FSA/DFA). This are an essecial component in all of computer science. We will be constructing a sequential circuit that will read in binary digits and determine if the binary number is divisible by 3. We will store these binary digits into something called a JK Flip-flop. A digram for one can be seen below.
+1.  This lab is to design a circuit that reads a binary number input one bit at a time and determines whether the binary number represented by the input is divisible by 3. In this lab we are introduced to the finite state machine/deterministic finite automata (FSA/DFA). This are an essecial component in all of computer science. We will be constructing a sequential circuit that will read in binary digits and determine if the binary number is divisible by 3. We will store these binary digits into something called a JK Flip-flop. A digram for one can be seen below.<br>
    <br><img width="600" height="500" src="lab_f1.png">
 # Materials
 - PB-503 Breadboard prototyping station (an integrated device with a number of electrical components like switches)
@@ -19,7 +19,7 @@ We'll explore how to connect these components with an idea of DFA and JK flip fl
 
 # Overview: 
 1. Circuit Design: The binary number will be fed to the circuit, one bit at a time, starting with the highest order bit and ending with
-the lowest order bit. Each bit will be clocked into the circuit using a separate clock input.
+the lowest order bit. Each bit will be clocked into the circuit using a separate clock input.<br>
 <br><img width="770" height="500" src="lab_f2.png">
 
 
@@ -42,29 +42,29 @@ the lowest order bit. Each bit will be clocked into the circuit using a separate
 We began by constructing a Finite State Machine (FSM) using a state transition diagram. 
 The FSM depicts the various states the circuit can be in and the transitions between them based on the input bits. The machine starts in the S0 state. It is then fed either a 1 or a 0. If it recieves a 1, it moves onto the next state, if its a zero, then it stays in the initial state. The goal of the machine is to create a binary number divisible by 3. <br>
 
-<br><img width="700" height="500" src="lab53.jpeg">
+<br><img width="700" height="500" src="lab53.jpeg"><br>
 
 
 ## 2. Build Boolean Truth Table
 
 Build truth table for the J and K inputs of each flip-flop and the output of the circuit.
 The outputs of your truth table are the J and K values for each flip flop in your memory portion of the
-circuit. You will also have an output for out, the overall circuit output.
-
-<br><img width="750" height="500" src="lab51.jpeg">
+circuit. You will also have an output for out, the overall circuit output.<br>
+<br><img width="750" height="500" src="lab51.jpeg"><br> <br>
+The far left is the current state in the dfa. These states also determine the final state on the far right. The next sections are the system input and the current output states of Q_0 and Q_1. Moving to the right is the next state based on the system input and the current state. The next couple is what the Q_0 and Q_1 need to be to get to the next state. From here the J and K of both flip-flops are found. These are used in k-maps.
 
 
 #### Note: Remember to include don’t cares whenever possible because they greatly ease the circuit design in the next
 
 ## 3. Build K-Maps
 
-Using the Boolean Truth Table, create K-Maps and minimized the logical expressions to simplified equations. We will use these simplified circuits to handle input into the Jk flop-flop. It is important to make sure that your simplifications are correct before starting to construct the circuit, as it can lead to mistakes and frustration if they are not.
-<br><img width="700" height="500" src="lab52.jpeg">
+Using the Boolean Truth Table, create K-Maps and minimize the logical expressions to simplified equations. We will use these simplified circuits to handle input into the Jk flip-flop. It is important to make sure that your simplifications are correct before starting to construct the circuit, as it can lead to mistakes and frustration if they are not.<br>
+<br><img width="700" height="500" src="lab52.jpeg"><br>
 
 
 ## 4. Build the circuit in logisim
 ### Testing:
-Before constructing the circuit, it is crucial to build it in Logisim to test that the circuit actualy works. We have provided a video demonstrating the correct circuit, but you should build it yourself first and then check with ours if you find yours is not working. You should only need two JK flip-flops for the circuit.
+Before constructing the circuit, it is crucial to build it in Logisim to test that the circuit actualy works. We have provided a video demonstrating the correct circuit, but you should build it yourself first and then check with ours if you find yours is not working. You should only need two JK flip-flops for the circuit.<br>
 
 
 
@@ -94,7 +94,7 @@ asynchronously.
 
 <br><img width="750" height="500" src="IMG_04641.JPG">
 <br>
-#### NOTE: Be sure to read the spec sheet for the JK flip flop very carefully. You will find some additional inputs on the real JK IC that do not appear on the simplified logisim model
+#### NOTE: Be sure to read the spec sheet for the JK flip flop very carefully. You will find some additional inputs on the real JK IC that do not appear on the simplified logisim model(PRE is one of them and Clear is inverted).
 <br>
 
 ### Testing:
