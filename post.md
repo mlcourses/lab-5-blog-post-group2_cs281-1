@@ -114,7 +114,7 @@ https://github.com/mlcourses/lab-5-blog-post-group2_cs281-1/assets/108073642/204
 
 
 # Conclusion
-
+The main thing we worked with latching and memory circuits. While we only worked with them on a basic level, they are vitally important to computing. Having the foundation and being able to utilize will allow us to have construct more complex memory circuits in the future and give us a better understanding of how computers hold memory. This lab also bridges the theoretical idea of computer states into how they can be repersented in the physical computation. 
 
 
 
