@@ -102,6 +102,7 @@ asynchronously.
 
 
 https://github.com/mlcourses/lab-5-blog-post-group2_cs281-1/assets/108073642/204d8f5e-cbd5-46f5-a917-4371fc74e9cf 
+
 <br><br>
 
 For testing there logic indicator should start on and be on if the inputed string repersents a number divisible by three. Referencing the the dfa from earlier should help.
